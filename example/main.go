@@ -2,11 +2,10 @@ package main
 
 import (
 	"fmt"
-	"os"
 
-	"github.com/tobiashort/isatty"
+	"github.com/tobiashort/isatty-go"
 )
 
 func main() {
-	fmt.Println(isatty.IsTerminal(os.Stdout))
+	fmt.Println(isatty.IsTerminal())
 }
