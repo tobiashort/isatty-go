@@ -1,3 +1,3 @@
-module github.com/tobiashort/isatty
+module github.com/tobiashort/isatty-go
 
-go 1.24.2
+go 1.24
